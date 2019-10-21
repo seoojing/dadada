@@ -1,0 +1,1371 @@
+<!DOCTYPE html>
+<html>
+<title>Thank You</title>
+<style>
+@font-face {
+      font-family: "DungGeunMo";
+      src: url("DungGeunMo.woff");
+    }
+	
+	body{background-color: #484535; font-family: "DungGeunMo"; overflow: hidden;}
+.flip-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip-container:hover .flipper,  
+  .flip-container.hover .flipper {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip-container, .front, .back {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front, .back {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front {
+	background: url(1.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front .name {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(face4.png) 0 0 no-repeat;
+}
+
+.back-title {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+
+
+
+
+
+
+
+
+.flip2-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip2-container:hover .flipper2,  
+  .flip2-container.hover .flipper2 {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip2-container, .front2, .back2 {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper2 {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front2, .back2 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front2 {
+	background: url(3.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back2 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front2 .name2 {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo2 {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(g.png) 0 0 no-repeat;
+}
+
+.back-title2 {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back2 p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+
+
+
+
+
+.flip3-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip3-container:hover .flipper3,  
+  .flip3-container.hover .flipper3 {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip3-container, .front3, .back3 {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper3 {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front3, .back3 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front3 {
+	background: url(2.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back3 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front3 .name3 {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo3 {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(face.png) 0 0 no-repeat;
+}
+
+.back-title3 {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back3 p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+
+
+
+
+
+
+
+
+.flip4-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip4-container:hover .flipper4,  
+  .flip4-container.hover .flipper4 {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip4-container, .front4, .back4 {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper4 {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front4, .back4 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front4 {
+	background: url(4.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back4 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front4 .name4 {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo4 {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(face1.png) 0 0 no-repeat;
+}
+
+.back-title4 {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back4 p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+
+
+
+
+.flip5-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip5-container:hover .flipper5,  
+  .flip5-container.hover .flipper5 {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip5-container, .front5, .back5 {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper5 {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front5, .back5 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front5 {
+	background: url(5.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back5 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front5 .name5 {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo5 {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(face2.png) 0 0 no-repeat;
+}
+
+.back-title5 {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back5 p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+
+
+
+
+
+
+.flip6-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip6-container:hover .flipper6,  
+  .flip6-container.hover .flipper6 {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip6-container, .front6, .back6 {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper6 {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front6, .back6 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front6 {
+	background: url(6.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back6 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front6 .name6 {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo6 {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(face3.png) 0 0 no-repeat;
+}
+
+.back-title6 {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back6 p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+
+
+
+
+
+
+.flip7-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip7-container:hover .flipper7,  
+  .flip7-container.hover .flipper7 {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip7-container, .front7, .back7 {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper7 {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front7, .back7 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front7 {
+	background: url(7.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back7 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front7 .name7 {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo7 {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(face5.png) 0 0 no-repeat;
+}
+
+.back-title7 {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back7 p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+
+
+
+
+
+
+
+.flip8-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip8-container:hover .flipper8,  
+  .flip8-container.hover .flipper8 {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip8-container, .front8, .back8 {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper8 {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front8, .back8 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front8 {
+	background: url(8.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back8 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front8 .name8 {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo8 {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(face6.png) 0 0 no-repeat;
+}
+
+.back-title8 {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back8 p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+
+
+
+
+
+
+.flip9-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip9-container:hover .flipper9,  
+  .flip9-container.hover .flipper9 {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip9-container, .front9, .back9 {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper9 {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front9, .back9 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front9 {
+	background: url(9.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back9 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front9 .name9 {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo9 {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(face7.png) 0 0 no-repeat;
+}
+
+.back-title9 {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back9 p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+
+
+
+
+
+.flip10-container {
+  -webkit-perspective: 1000;
+  -moz-perspective: 1000;
+  -o-perspective: 1000;
+  perspective: 1000;
+
+	
+}
+
+	.flip10-container:hover .flipper10,  
+  .flip10-container.hover .flipper10 {
+		-webkit-transform: rotateY(180deg);
+		-moz-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+		transform: rotateY(180deg);
+	}
+
+.flip10-container, .front10, .back10 {
+	width: 320px;
+	height: 427px;
+}
+
+.flipper10 {
+	-webkit-transition: 0.6s;
+	-webkit-transform-style: preserve-3d;
+
+	-moz-transition: 0.6s;
+	-moz-transform-style: preserve-3d;
+  
+  -o-transition: 0.6s;
+	-o-transform-style: preserve-3d;
+
+	transition: 0.6s;
+	transform-style: preserve-3d;
+
+	position: relative;
+}
+
+.front10, .back10 {
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
+	backface-visibility: hidden;
+
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.front10 {
+	background: url(10.png) 0 0 no-repeat;
+	z-index: 2;
+}
+
+.back10 {
+	-webkit-transform: rotateY(180deg);
+	-moz-transform: rotateY(180deg);
+  -o-transform: rotateY(180deg);
+	transform: rotateY(180deg);
+
+	background: #f8f8f8;
+}
+
+.front10 .name10 {
+	font-size: 2em;
+	display: inline-block;
+	background: rgba(33, 33, 33, 0.9);
+	color: #f8f8f8;
+	font-family: Courier;
+	padding: 5px 10px;
+	border-radius: 5px;
+	bottom: 60px;
+	left: 25%;
+	position: absolute;
+	text-shadow: 0.1em 0.1em 0.05em #333;
+
+	-webkit-transform: rotate(-20deg);
+	-moz-transform: rotate(-20deg);
+  -o-transform: rotate(-20deg);
+	transform: rotate(-20deg);
+}
+
+.back-logo10 {
+	position: absolute;
+	top: 40px;
+	left: 70px;
+	width: 160px;
+	height: 117px;
+	background: url(face9.png) 0 0 no-repeat;
+}
+
+.back-title10 {
+	font-weight: bold;
+	color: black;
+	position: absolute;
+	top: 180px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	
+
+	font-size: 2em;
+}
+
+.back10 p {
+	position: absolute;
+	bottom: 20px;
+	left: 0;
+	right: 0;
+	text-align: center;
+	padding: 0 20px;
+  line-height: 1.7em;font-weight:bold;
+	color: #484535;
+}
+	#logo{top: 1%; left: 47%; position: absolute;}
+	#logo img{width: 120px; height: auto;}
+		#logo2 p{top: 97%; left: 38%; position: absolute; color:black;}
+</style>
+
+<head>
+	<title></title>
+</head>
+
+<body>
+
+	<div id="container">
+
+<div style="position: absolute; top: 7%; left: 2%;" class="flip-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper">
+    <div class="front">
+      
+    </div>
+    <div class="back">
+      <div class="back-logo"></div>
+      <div class="back-title">박현지</div>
+      <p>게임 내에서는 진지한 캐릭터로 나왔지만 원래는 밝고 개그 캐릭터인 친구입니다. 초창기에는 어딘가에 미친 캐릭터로 나왔으면 싶었지만 어딘가 사연이 있는 캐릭터도 어울릴 것 같아 후자로 나오게 되었습니다.</p>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; top: 7%; left: 22%;" class="flip2-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper2">
+    <div class="front2">
+      
+    </div>
+    <div class="back2">
+      <div class="back-logo2"></div>
+      <div class="back-title2">황현지</div>
+      <p>이 친구의 무표정이 제 기준에서 정말 일품이라고 생각하여 꼭 게임 내에서 이러한 매력이 느껴지는 캐릭터로 나왔으면 했습니다. 게임에서 항상 화가 나 있는 이 친구는 실제로는 화가 많지 않고 따뜻한 친구입니다.</p>
+    </div>
+  </div>
+</div>
+
+
+<div style="position: absolute; top: 7%; left: 42%;" class="flip3-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper3">
+    <div class="front3">
+      
+    </div>
+    <div class="back3">
+      <div class="back-logo3"></div>
+      <div class="back-title3">안재균</div>
+      <p>먹보는 아니지만 게임 내에서 나온 성격과 원래의 성격이 비슷하게나마 나온 친구입니다! 다일이라는 캐릭터처럼 누군가의 고민도 잘 들어주고 해결방안도 제시해주는 재판장님 같은 친구입니다.(고맙다!)</p>
+    </div>
+  </div>
+</div>
+
+
+
+<div style="position: absolute; top: 7%; left: 62%;" class="flip4-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper4">
+    <div class="front4">
+      
+    </div>
+    <div class="back4">
+      <div class="back-logo4"></div>
+      <div class="back-title4">임정주</div>
+      <p>나른하고 귀찮아 보이는 캐릭터로 나온 정주. 누군가를 잘 다독여주고 응원해주는 귀여운 친구입니다. 포용력 좋으며(정말 좋음 정말로..) 제 음악 취향도 존중해준 고마운 친구입니다. 다음에 또 같이 듣자!</p>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; top: 7%; left: 82%;" class="flip5-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper5">
+    <div class="front5">
+      
+    </div>
+    <div class="back5">
+      <div class="back-logo5"></div>
+      <div class="back-title5">심혜윤</div>
+      <p>초창기 게임에서(스클루가 나올 수 있었던 게임) 범인으로 나온 다육맘인 친구입니다. 식물을 엄청 좋아합니다. 몇 번 정신 없었던 날 따뜻한 잠자리를 내어 준 적이 있는데 이 자리를 빌어 고맙단 말을 전합니다...♥</p>
+    </div>
+  </div>
+</div>
+<div style="position: absolute; top: 54%; left: 82%;" class="flip6-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper6">
+    <div class="front6">
+      
+    </div>
+    <div class="back6">
+      <div class="back-logo6"></div>
+      <div class="back-title6">정유진</div>
+      <p>게임 내에서 주인공과 가깝지만 먼 사이로 나온 친구. 실제로는 반대입니다. 멀지만 가까운 친구 유진.. 서로 다른 트랙이라 보기는 힘들지만 항상 우리 사이는 게임으로 이어져 있습니다...♥ (너도 그렇다고 해!)</p>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; top: 54%; left: 62%;" class="flip7-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper7">
+    <div class="front7">
+      
+    </div>
+    <div class="back7">
+      <div class="back-logo7"></div>
+      <div class="back-title7">김보경</div>
+      <p>인터렉션 비즈니스에서 같은 팀이 된 보경언니. 언니를 갑툭튀 캐릭터로 써도 되냐는 말에 흔쾌히 수락해 주셔서 감사합니다... 몇 개 만들어서 샘플로 보여드리니 정말 놀래는 모습을 보여주셨습니다. 대성공이네요 언니...</p>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; top: 54%; left: 42%;" class="flip8-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper8">
+    <div class="front8">
+      
+    </div>
+    <div class="back8">
+      <div class="back-logo8"></div>
+      <div class="back-title8">김수련</div>
+      <p>원래는 주인공이였던 친구... 하지만 주인공의 얼굴을 보여주지 않는 방향이 되자 갈 길을 잃은 친구는 실종 친구로 탈바꿈 하게 되는데... 급작스런 변동에도 수락해 주신 창수에게 감사 인사를 전합니다.</p>
+    </div>
+  </div>
+</div>
+<div style="position: absolute; top: 54%; left: 22%;" class="flip9-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper9">
+    <div class="front9">
+      
+    </div>
+    <div class="back9">
+      <div class="back-logo9"></div>
+      <div class="back-title9">현은서</div>
+      <p>표정연기가 장난 아니였던, 끊임없이 흑막을 갈구하던 친구. 하지만 자신이 게임에 있는 것을 인지하고 있는 베일에 싸인 인물도 만족스러워 하는 것 같습니다. 기회가 된다면 다음에는 꼭 흑막으로 나오게 해줄게! </p>
+    </div>
+  </div>
+</div>
+
+<div style="position: absolute; top: 54%; left: 2%;" class="flip10-container" ontouchstart="this.classList.toggle('hover');">
+  <div class="flipper10">
+    <div class="front10">
+      
+    </div>
+    <div class="back10">
+      <div class="back-logo10"></div>
+      <div class="back-title10">신다은</div>
+      <p>작업 기간동안 낮, 새벽할 것 없이 옆에서 작업동료가 되어준 다은언니! 어딜가도 리더같은 언니는 보자마자 바로 튜토리얼이 생각났습니다. 게임의 기본을 알려주는 캐릭터를 맡아서 언니도 만족하는 것 같아 다행입니다.</p>
+    </div>
+  </div>
+</div>
+
+
+
+</div>
+
+	<div id="logo">
+		<img src="logo.png">
+	</div>
+	<div id="logo2">
+		<p>게임 제작에 도움을 주신 모든 분들께 감사 인사를 전합니다.</p>
+	</div>
+<script type="text/javascript">
+
+var aaPlay = 0;
+window.onmousemove = function(){
+	aaPlay++;
+	if(aaPlay == 1){bath.play(); walk.play(); }
+}
+
+
+</script>
+</body>
+</html>
